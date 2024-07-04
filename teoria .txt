@@ -26,6 +26,7 @@ de cada uno
 	Undefined: Representa un valor no inicializado. Ejemplo: undefined.
 	Symbol: Representa identificadores únicos. Ejemplo: Symbol("identificador único").
 	BigInt: Representa números enteros de gran precisión. Ejemplo: 12345678901234567890n.
+
 2. Tipos de datos no primitivos:
 
 Son estructuras de datos más complejas que almacenan colecciones de datos o valores relacionados. Los tipos de datos no primitivos en JavaScript son:
@@ -33,6 +34,72 @@ Son estructuras de datos más complejas que almacenan colecciones de datos o val
 	Object: Representa un objeto con propiedades y métodos. Ejemplo: { nombre: "Juan", edad: 30 }.
 	Array: Representa una lista ordenada de valores. Ejemplo: ["Manzana", "Pera", "Banana"].
 	Function: Representa una función que puede ejecutar código. Ejemplo: function saludar() { console.log("¡Hola!"); }
+
+
+
+
+3)   Explica cómo funcionan los operadores lógicos (&&, ||, !) en JavaScript y proporciona ejemplos de su uso
+
+
+
+	1. AND (&&):
+
+	Funcionamiento:
+
+	Representa la conjunción lógica.
+	Evalúa dos o más expresiones booleanas.
+	Devuelve true solo si todas las expresiones son true.
+	Si encuentra una expresión false, detiene la evaluación y devuelve false inmediatamente.
+	Ejemplo:
+
+	Imagina un sistema de control de acceso que requiere dos condiciones para permitir el ingreso:
+
+	La puerta debe estar abierta.
+	El usuario debe tener la llave electrónica.
+	En este caso, accesoPermitido sería true solo si puertaAbierta y tieneLlaveElectronica son true simultáneamente.
+	 Si una de las condiciones es false, el acceso no se permite.
+
+
+	2. OR (||):
+
+	Funcionamiento:
+
+	Representa la disyunción lógica.
+	Evalúa dos o más expresiones booleanas.
+	Devuelve true si al menos una de las expresiones es true.
+	Detiene la evaluación si encuentra una expresión true y devuelve true inmediatamente.
+	Solo devuelve false si todas las expresiones son false.
+	Ejemplo teórico:
+
+	Consideremos un sistema de votación donde se permite el voto si se cumple una de dos condiciones:
+
+	El votante tiene 18 años o más.
+	El votante tiene una autorización especial.
+	En este caso, puedeVotar sería true porque se cumple al menos una de las condiciones: 
+	la edad del votante es mayor o igual a 18. 
+	Si ambas condiciones fueran false, puedeVotar sería false
+
+
+
+	3. NOT (!):
+
+	Funcionamiento:
+
+	Representa la negación lógica.
+	Invierte el valor de una única expresión booleana.
+	Si la expresión es true, la convierte en false.
+	Si la expresión es false, la convierte en true.
+	Ejemplo teórico:
+
+	Supongamos que un sensor indica si una luz está encendida.
+	
+	En este caso, luzApagada sería true porque invierte el valor de luzEncendida, que es false.
+
+
+
+
+	
+
 
 
 
