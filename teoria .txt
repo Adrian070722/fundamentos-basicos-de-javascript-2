@@ -1,0 +1,41 @@
+                                                   Objetos, Objetos estándar, Eventos, Depuración
+
+
+1)	Explica la diferencia entre variables y constantes en JavaScript
+Variables:
+	Almacenan información que puede cambiar: Su valor se puede reasignar durante el programa.
+	Palabras clave: var, let.
+	Uso: Datos que cambian con el tiempo.
+Constantes:
+	Almacenan información fija: Su valor no se puede cambiar una vez inicializado.
+	Palabra clave: const.
+	Uso: Datos fijos que no deben cambiar.
+En resumen:
+	Las variables son mutables.
+	Las constantes son inmutables
+
+
+
+2) Describe los diferentes tipos de datos que se pueden usar en JavaScript y proporciona ejemplos
+de cada uno
+
+	Number: Representa números enteros o decimales. Ejemplos: 10, 3.14, -50.
+	String: Representa cadenas de texto. Ejemplos: "Hola", "Mundo", "JavaScript".
+	Boolean: Representa valores lógicos (verdadero o falso). Ejemplos: true, false.
+	Null: Representa la ausencia de un valor. Ejemplo: null.
+	Undefined: Representa un valor no inicializado. Ejemplo: undefined.
+	Symbol: Representa identificadores únicos. Ejemplo: Symbol("identificador único").
+	BigInt: Representa números enteros de gran precisión. Ejemplo: 12345678901234567890n.
+2. Tipos de datos no primitivos:
+
+Son estructuras de datos más complejas que almacenan colecciones de datos o valores relacionados. Los tipos de datos no primitivos en JavaScript son:
+
+	Object: Representa un objeto con propiedades y métodos. Ejemplo: { nombre: "Juan", edad: 30 }.
+	Array: Representa una lista ordenada de valores. Ejemplo: ["Manzana", "Pera", "Banana"].
+	Function: Representa una función que puede ejecutar código. Ejemplo: function saludar() { console.log("¡Hola!"); }
+
+
+
+
+
+
